@@ -22,7 +22,7 @@ body {
     display: flex;
 }
 
-.common-button-style {
+.common-button {
     border-radius: 42px;
     background: rgb(230, 83, 60);
     padding: 16px 40px 16px 40px;
@@ -33,10 +33,10 @@ body {
 
 header {
     background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+    padding: 0 12rem;
 }
 
 .brand {
-    margin-left: 12rem;
     color: var(--primary-color);
     font-size: 2.25rem;
     font-weight: 800;
